@@ -53,7 +53,7 @@ OPENDATASOURCE ( provider_name, init_string )
  這是登錄為 OLE DB 提供者之 PROGID 的名稱，以用來存取資料來源。 *provider_name* 為沒有預設值的 **char** 資料類型。  
   
  *init_string*  
- 為傳遞到目的地提供者 IDataInitialize 介面的連接字串。 提供者字串語法是以分號隔開的索引鍵-值組為基礎，例如：**'***keyword1*=* value***;***keyword2*=* value***'**。  
+ 為傳遞到目的地提供者 IDataInitialize 介面的連接字串。 提供者字串語法是以分號隔開的索引鍵-值組為基礎，例如：**'**_keyword1_=_value_**;***keyword2*=*value***'**。
   
  如需在提供者上支援的特定關鍵字-值配對，請參閱 [!INCLUDE[msCoName](../../includes/msconame-md.md)] Data Access SDK。 這份文件集定義基本語法。 下表列出 *init_string* 引數最常使用的關鍵字。  
   
